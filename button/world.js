@@ -1,1 +1,1 @@
-module.exports='world';
+export const world ='world!!';

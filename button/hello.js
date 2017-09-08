@@ -1,1 +1,2 @@
-module.exports='Hello';
+
+export const hello='Hello!!';

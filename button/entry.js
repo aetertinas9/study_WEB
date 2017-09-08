@@ -1,6 +1,8 @@
-require('!style-loader!css-loader!!sass-loader!./style.sass');
+import'./style.sass';
 
-var hello=require('./hello');
-var world=require('./world');
+import  {hello} from "./hello";
 
-document.write(hello+world);
+import {world} from "./world";
+
+document.write(hello);
+document.write(world);
